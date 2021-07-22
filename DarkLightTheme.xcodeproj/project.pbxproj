@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8D1D30C826A966680067FBE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D30C726A966680067FBE5 /* AppDelegate.swift */; };
 		8D1D30CA26A966680067FBE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D30C926A966680067FBE5 /* SceneDelegate.swift */; };
-		8D1D30CC26A966680067FBE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D30CB26A966680067FBE5 /* ViewController.swift */; };
+		8D1D30CC26A966680067FBE5 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D30CB26A966680067FBE5 /* ThemeViewController.swift */; };
 		8D1D30CF26A966680067FBE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1D30CD26A966680067FBE5 /* Main.storyboard */; };
 		8D1D30D126A9666A0067FBE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1D30D026A9666A0067FBE5 /* Assets.xcassets */; };
 		8D1D30D426A9666A0067FBE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1D30D226A9666A0067FBE5 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		8D1D30C426A966680067FBE5 /* DarkLightTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkLightTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1D30C726A966680067FBE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D1D30C926A966680067FBE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D1D30CB26A966680067FBE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D1D30CB26A966680067FBE5 /* ThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
 		8D1D30CE26A966680067FBE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D1D30D026A9666A0067FBE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D1D30D326A9666A0067FBE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,39 @@
 		8D1D30C626A966680067FBE5 /* DarkLightTheme */ = {
 			isa = PBXGroup;
 			children = (
-				8D1D30C726A966680067FBE5 /* AppDelegate.swift */,
-				8D1D30C926A966680067FBE5 /* SceneDelegate.swift */,
-				8D1D30CB26A966680067FBE5 /* ViewController.swift */,
-				8D1D30CD26A966680067FBE5 /* Main.storyboard */,
+				8D1D30DB26A966840067FBE5 /* AppDelegate */,
+				8D1D30DC26A966910067FBE5 /* Controler */,
+				8D1D30DD26A966990067FBE5 /* View */,
 				8D1D30D026A9666A0067FBE5 /* Assets.xcassets */,
-				8D1D30D226A9666A0067FBE5 /* LaunchScreen.storyboard */,
 				8D1D30D526A9666A0067FBE5 /* Info.plist */,
 			);
 			path = DarkLightTheme;
+			sourceTree = "<group>";
+		};
+		8D1D30DB26A966840067FBE5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D30C726A966680067FBE5 /* AppDelegate.swift */,
+				8D1D30C926A966680067FBE5 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8D1D30DC26A966910067FBE5 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D30CB26A966680067FBE5 /* ThemeViewController.swift */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		8D1D30DD26A966990067FBE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D30CD26A966680067FBE5 /* Main.storyboard */,
+				8D1D30D226A9666A0067FBE5 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D1D30CC26A966680067FBE5 /* ViewController.swift in Sources */,
+				8D1D30CC26A966680067FBE5 /* ThemeViewController.swift in Sources */,
 				8D1D30C826A966680067FBE5 /* AppDelegate.swift in Sources */,
 				8D1D30CA26A966680067FBE5 /* SceneDelegate.swift in Sources */,
 			);
